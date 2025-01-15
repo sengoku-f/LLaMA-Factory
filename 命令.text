@@ -1,0 +1,8 @@
+conda activate llama_factory
+conda deactivate
+
+使用模型
+llamafactory-cli webchat examples/inference/qwen2.5.yaml
+
+训练
+llamafactory-cli train D:\LLM\LLaMA-Factory\examples\train_full\qwen2.5.yaml
